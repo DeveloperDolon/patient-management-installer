@@ -1,0 +1,108 @@
+@import 'tailwindcss';
+
+@import 'toastr/build/toastr.min.css';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans:
+        'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* stat colors */
+.bg-stat-appointments {
+    background-color: #6366f1;
+}
+.text-stat-appointments {
+    color: #6366f1;
+}
+.border-stat-appointments {
+    border-color: #6366f1;
+}
+
+.bg-stat-consultancy {
+    background-color: #10b981;
+}
+.text-stat-consultancy {
+    color: #10b981;
+}
+.border-stat-consultancy {
+    border-color: #10b981;
+}
+
+.bg-stat-pending {
+    background-color: #8b5cf6;
+}
+.text-stat-pending {
+    color: #8b5cf6;
+}
+.border-stat-pending {
+    border-color: #8b5cf6;
+}
+
+.bg-stat-request {
+    background-color: #06b6d4;
+}
+.text-stat-request {
+    color: #06b6d4;
+}
+.border-stat-request {
+    border-color: #06b6d4;
+}
+
+/* status colors */
+.bg-status-ongoing {
+    background-color: #10b981;
+}
+.text-status-ongoing {
+    color: #10b981;
+}
+.border-status-ongoing {
+    border-color: #10b981;
+}
+
+.bg-status-scheduled {
+    background-color: #8b5cf6;
+}
+.text-status-scheduled {
+    color: #8b5cf6;
+}
+.border-status-scheduled {
+    border-color: #8b5cf6;
+}
+
+/* chart colors */
+.bg-chart-primary {
+    background-color: #6366f1;
+}
+.text-chart-primary {
+    color: #6366f1;
+}
+.border-chart-primary {
+    border-color: #6366f1;
+}
+
+.bg-chart-secondary {
+    background-color: #8b5cf6;
+}
+.text-chart-secondary {
+    color: #8b5cf6;
+}
+.border-chart-secondary {
+    border-color: #8b5cf6;
+}
+
+.bg-chart-tertiary {
+    background-color: #10b981;
+}
+.text-chart-tertiary {
+    color: #10b981;
+}
+.border-chart-tertiary {
+    border-color: #10b981;
+}
+

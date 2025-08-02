@@ -1,0 +1,11 @@
+{
+    "timestamp": "2025-08-02 04:02:27",
+    "hwid": "f3d3aab2bae31ec904e6c4ec8227cc136654d8f8c4fa90fa1ad4821360968c39",
+    "hardware": [],
+    "system": {
+        "os": "Linux",
+        "release": "6.12.33+kali-amd64",
+        "version": "#1 SMP PREEMPT_DYNAMIC Kali 6.12.33-1kali1 (2025-06-25)",
+        "machine": "x86_64"
+    }
+}
